@@ -16,7 +16,7 @@ My Today I Learned (TIL) snippets. Inspired by [simonw](https://github.com/simon
 
 ## heroku
 
-* [Upgrade Review App Environment Variable (UI_ROOT_PATH)](https://github.com/mabdullahabid/til/blob/main/heroku/update-review-app-ui-root-path.md) - 2024-05-09
+* [Upgrade Review App Environment Variable](https://github.com/mabdullahabid/til/blob/main/heroku/update-review-app-ui-root-path.md) - 2024-05-09
 * [Upgrade Review App Addons based on Production Addons](https://github.com/mabdullahabid/til/blob/main/heroku/upgrade-review-app-addons.md) - 2024-05-09
 * [Upgrade Review App Dynos based on Production Dynos](https://github.com/mabdullahabid/til/blob/main/heroku/upgrade-review-app-dynos.md) - 2024-05-09
 <!-- index ends -->
