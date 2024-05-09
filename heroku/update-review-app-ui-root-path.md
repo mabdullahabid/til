@@ -1,4 +1,4 @@
-# Upgrade Review App Environment Variable (UI_ROOT_PATH)
+# Upgrade Review App Environment Variable
 
 Save this script as `update-review-app-ui-root-path.sh` and run it to update the `UI_ROOT_PATH` environment variable in a Heroku review app based on the value in the staging app.
 
