@@ -1,6 +1,8 @@
 # Upgrade Review App Addons based on Production Addons
 
-``` bash
+Save this script as `upgrade-review-app-addons.sh` and run it to upgrade the addons in a Heroku review app based on the addons in the production app.
+
+```bash
 #!/bin/bash
 
 # Check if logged into the correct Heroku account
