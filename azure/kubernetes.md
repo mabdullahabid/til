@@ -24,4 +24,4 @@ Lens is an IDE built specifically for Kubernetes that lets you connect to cluste
 
 ### Restart all deployments
 
-    kubectl rollout restart deployment -n cb-core
+    kubectl rollout restart deployment -n <namespace>
