@@ -13,6 +13,7 @@ Copy from local to new server
     scp plane_aws_dump_08-05-2024_06_48_21.sql [new-server-url]:/root/backups/plane_aws_dump_08-05-2024_06_48_21.sql
 
 Delete and Create Database
+
     docker compose exec plane-db bash
     dropdb plane -U plane
     createdb plane -U plane
