@@ -104,7 +104,7 @@ jobs:
       run: |-
         cd main
         datasette publish vercel tils.db \
-          --token $NOW_TOKEN \
+          --token $VERCEL_TOKEN \
           --project abd-dev-til \
           --scope datasette \
           --metadata metadata.yaml \
