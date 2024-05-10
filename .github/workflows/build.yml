@@ -1,4 +1,4 @@
-name: Build README
+name: Build README and deploy Datasette
 
 on:
   push:
@@ -100,7 +100,7 @@ jobs:
         s3-credentials put-object til.abd.dev tils.db main/tils.db
     - name: Deploy Datasette using Vercel
       env:
-        NOW_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       run: |-
         cd main
         datasette publish vercel tils.db \
