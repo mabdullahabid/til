@@ -106,7 +106,7 @@ jobs:
         datasette publish vercel tils.db \
           --token $VERCEL_TOKEN \
           --project abd-dev-til \
-          --scope datasette \
+          --scope abd-dev \
           --metadata metadata.yaml \
           --static static:static \
           --install datasette-template-sql \
