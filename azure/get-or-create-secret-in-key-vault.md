@@ -1,5 +1,7 @@
 # Get or Create Secrets in Azure Key Vault using Python
 
+This needs to be updated to the latest version.
+
 I was brought in to a project where a large Django monolith was being moved
 from Heroku to Azure. It was decided that we'll be using Azure Kubernetes
 Service (AKS) for hosting the Django application. The application had a lot of
