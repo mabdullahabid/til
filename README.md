@@ -1,6 +1,6 @@
 # Today I Learned
 
-My Today I Learned (TIL) snippets. Inspired by [simonw](https://github.com/simonw/til).
+My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.com/simonw/til).
 
 <!-- count starts -->6<!-- count ends --> TILs so far.
 
