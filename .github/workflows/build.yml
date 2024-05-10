@@ -105,7 +105,7 @@ jobs:
         cd main
         datasette publish vercel tils.db \
           --token $VERCEL_TOKEN \
-          --project abd-dev-til \
+          --project til \
           --scope abd-dev \
           --metadata metadata.yaml \
           --static static:static \
