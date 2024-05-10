@@ -53,14 +53,14 @@ jobs:
       run: |-
         cd main
         datasette . --get / | grep "Abdullah Abid: TIL"
-    - name: Generate missing screenshots
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      run: |-
-        cd main
-        python generate_screenshots.py
-        sqlite-utils vacuum tils.db
+    # - name: Generate missing screenshots
+    #   env:
+    #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+    #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    #   run: |-
+    #     cd main
+    #     python generate_screenshots.py
+    #     sqlite-utils vacuum tils.db
     - name: Calculate embeddings and document similarity
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
