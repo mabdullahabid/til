@@ -2,7 +2,7 @@
 
 My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.com/simonw/til).
 
-<!-- count starts -->8<!-- count ends --> TILs so far.
+<!-- count starts -->7<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## azure
