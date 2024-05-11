@@ -1,5 +1,7 @@
 # Upgrade Review App Dynos based on Production Dynos
 
+A script to scale the dynos in a Heroku review app based on the dynos in the production app.
+
 Save this script as `upgrade-review-app-dynos.sh` and run it to scale the dynos in a Heroku review app based on the dynos in the production app.
 
 ```bash

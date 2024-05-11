@@ -1,5 +1,7 @@
 # Terminal Setup
 
+A guide to setting up a terminal environment for development.
+
 Terminal Setup
 
     1. zsh

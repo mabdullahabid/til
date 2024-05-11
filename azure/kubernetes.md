@@ -1,4 +1,6 @@
-# Useful Azure Kubernetes Service (AKS) commands
+# Useful Azure Kubernetes Service (AKS) 
+
+A collection of useful commands and tips for working with Azure Kubernetes Service (AKS).
 
 Make sure you have the Azure CLI installed and logged in.
 
