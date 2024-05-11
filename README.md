@@ -2,7 +2,7 @@
 
 My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.com/simonw/til).
 
-<!-- count starts -->6<!-- count ends --> TILs so far.
+<!-- count starts -->7<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## azure
@@ -19,4 +19,8 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 * [Upgrade Review App Environment Variable](https://github.com/mabdullahabid/til/blob/main/heroku/update-review-app-ui-root-path.md) - 2024-05-09
 * [Upgrade Review App Addons based on Production Addons](https://github.com/mabdullahabid/til/blob/main/heroku/upgrade-review-app-addons.md) - 2024-05-09
 * [Upgrade Review App Dynos based on Production Dynos](https://github.com/mabdullahabid/til/blob/main/heroku/upgrade-review-app-dynos.md) - 2024-05-09
+
+## zsh
+
+* [Terminal Setup](https://github.com/mabdullahabid/til/blob/main/zsh/terminal-setup.md) - 2024-05-10
 <!-- index ends -->
