@@ -23,8 +23,4 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 ## zsh
 
 * [Terminal Setup](https://github.com/mabdullahabid/til/blob/main/zsh/terminal-setup.md) - 2024-05-10
-
-## kubernetes
-
-* [Use Kubernetes commands](https://github.com/mabdullahabid/til/blob/main/kubernetes/useful-kubernetes-commands.md) - 2024-05-10
 <!-- index ends -->

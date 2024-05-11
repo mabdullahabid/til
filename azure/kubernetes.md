@@ -1,4 +1,4 @@
-# Useful Azure Kubernetes Service (AKS) 
+# Useful Azure Kubernetes Service (AKS) commands
 
 A collection of useful commands and tips for working with Azure Kubernetes Service (AKS).
 
