@@ -2,7 +2,7 @@
 
 My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.com/simonw/til).
 
-<!-- count starts -->7<!-- count ends --> TILs so far.
+<!-- count starts -->8<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## azure
@@ -23,4 +23,8 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 ## zsh
 
 * [Terminal Setup](https://github.com/mabdullahabid/til/blob/main/zsh/terminal-setup.md) - 2024-05-10
+
+## hestiacp
+
+* [Webmail Internal Server Error after migration](https://github.com/mabdullahabid/til/blob/main/hestiacp/webmail-internal-server-error-after-migration.md) - 2024-06-01
 <!-- index ends -->
