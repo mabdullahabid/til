@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "PYTHON_VERSION": "3.11"
+    }
+  },
+  "buildCommand": null,
+  "installCommand": null,
+  "framework": null
+}
