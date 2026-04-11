@@ -98,14 +98,12 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |-
         s3-credentials put-object til.abd.dev tils.db main/tils.db
-    - name: Install Vercel CLI
-      run: npm install -g vercel@latest
-    
     - name: Deploy Datasette using Vercel
       env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       run: |-
         cd main
+        # Generate deployment files (but don't deploy yet)
         datasette publish vercel tils.db \
           --token $VERCEL_TOKEN \
           --project til \
@@ -123,4 +121,12 @@ jobs:
           --install datasette-llm-embed \
           --plugins-dir plugins \
           --template-dir templates \
-          --public
+          --generate-dir=vercel-deploy
+        
+        # Fix vercel.json to use latest Python instead of 3.9
+        # The generated file uses @vercel/python@3.0.7 which is discontinued
+        echo '{"name": "til", "version": 2, "builds": [{"src": "index.py", "use": "@vercel/python"}], "routes": [{"src": "(.*)", "dest": "index.py"}]}' > vercel-deploy/vercel.json
+        
+        # Deploy using the fixed vercel.json
+        cd vercel-deploy
+        vercel --confirm --prod --token $VERCEL_TOKEN --scope abd-dev --public
