@@ -98,6 +98,9 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |-
         s3-credentials put-object til.abd.dev tils.db main/tils.db
+    - name: Install Vercel CLI
+      run: npm install -g vercel@latest
+    
     - name: Deploy Datasette using Vercel
       env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
