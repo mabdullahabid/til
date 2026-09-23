@@ -62,6 +62,9 @@ jobs:
         python generate_screenshots.py
         sqlite-utils vacuum tils.db
     - name: Calculate embeddings and document similarity
+      # Search enrichment should not block publishing when the external
+      # embedding provider or its credentials are unavailable.
+      continue-on-error: true
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |-
