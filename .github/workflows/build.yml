@@ -135,4 +135,4 @@ jobs:
         
         # Deploy using the fixed vercel.json
         cd vercel-deploy
-        vercel --confirm --prod --token $VERCEL_TOKEN --scope abd-dev --public
+        vercel --confirm --prod --token $VERCEL_TOKEN --scope abd-dev
