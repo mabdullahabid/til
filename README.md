@@ -2,7 +2,7 @@
 
 My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.com/simonw/til).
 
-<!-- count starts -->42<!-- count ends --> TILs so far.
+<!-- count starts -->47<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## azure
@@ -44,6 +44,7 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 
 * [AI Model Sizing Rule of Thumb](https://github.com/mabdullahabid1/til/blob/main/ai/ai-model-sizing-rule-of-thumb.md) - 2026-04-11
 * [Normalize Responses API Content Before Validation](https://github.com/mabdullahabid1/til/blob/main/ai/normalize-responses-api-content-before-validation.md) - 2026-09-29
+* [Crawl4AI Pruned Text Needs Quality Gates](https://github.com/mabdullahabid1/til/blob/main/ai/crawl4ai-pruned-text-needs-quality-gates.md) - 2026-10-27
 
 ## shopify
 
@@ -58,6 +59,7 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 ## google-maps
 
 * [Google Maps API Caching Opportunity](https://github.com/mabdullahabid1/til/blob/main/google-maps/google-maps-api-caching-opportunity.md) - 2026-04-11
+* [Google Geocoding `postcode_localities` Lives Inside Each Result](https://github.com/mabdullahabid1/til/blob/main/google-maps/google-geocoding-postcode-localities-live-inside-result.md) - 2026-10-27
 
 ## web-scraping
 
@@ -95,6 +97,7 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 * [A FileField Cannot Use an Auto Primary Key on First Save](https://github.com/mabdullahabid1/til/blob/main/django/filefield-primary-key-is-unset-on-first-save.md) - 2026-10-13
 * [Repair Unapplied Conflicting Django Migration Leaves Safely](https://github.com/mabdullahabid1/til/blob/main/django/repair-unapplied-conflicting-migration-leaves.md) - 2026-10-13
 * [Defer External Side Effects Until the Database Commits](https://github.com/mabdullahabid1/til/blob/main/django/defer-external-side-effects-until-database-commit.md) - 2026-10-13
+* [Django `on_commit(..., robust=True)` Contains Best-Effort Callback Failures](https://github.com/mabdullahabid1/til/blob/main/django/django-on-commit-robust-prevents-post-commit-request-errors.md) - 2026-10-27
 
 ## playwright
 
@@ -123,8 +126,10 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 
 * [dict.get Defaults Only Apply to Missing Keys](https://github.com/mabdullahabid1/til/blob/main/python/dict-get-default-only-fires-on-missing-key.md) - 2026-10-04
 * [Circular Time Windows Need Sequence Order](https://github.com/mabdullahabid1/til/blob/main/python/circular-time-window-use-first-last-not-min-max.md) - 2026-10-15
+* [Move CPU-Bound Fallbacks Off the Async Event Loop](https://github.com/mabdullahabid1/til/blob/main/python/move-cpu-bound-fallbacks-off-the-async-event-loop.md) - 2026-10-27
 
 ## testing
 
 * [Prove a Simulator Matches Production with Parity Tests](https://github.com/mabdullahabid1/til/blob/main/testing/prove-a-simulator-matches-production-with-parity-tests.md) - 2026-10-15
+* [Skip Before Django TestCase Opens Its Atomic Block](https://github.com/mabdullahabid1/til/blob/main/testing/skip-before-django-testcase-opens-its-atomic-block.md) - 2026-10-27
 <!-- index ends -->
