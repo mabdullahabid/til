@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - main
+    - migration/github-primary
   workflow_dispatch:
 
 permissions:
@@ -79,7 +80,7 @@ jobs:
       if: env.HAS_AZURE_OPENAI == 'true'
       # Related TILs should not block publishing when the embedding
       # provider is unavailable.
-      continue-on-error: true
+      continue-on-error: ${{ github.ref == 'refs/heads/main' }}
       env:
         AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
         AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
@@ -93,6 +94,7 @@ jobs:
         python update_readme.py --rewrite
         cat README.md
     - name: Commit and push if README changed
+      if: github.ref == 'refs/heads/main'
       run: |-
         cd main
         git diff
@@ -112,11 +114,12 @@ jobs:
         context: main
         push: true
         tags: |
-          ${{ env.IMAGE }}:latest
+          ${{ github.ref == 'refs/heads/main' && format('{0}:latest', env.IMAGE) || '' }}
           ${{ env.IMAGE }}:${{ github.sha }}
         labels: |
           org.opencontainers.image.source=https://github.com/${{ github.repository }}
     - name: Deploy on Coolify
+      if: github.ref == 'refs/heads/main'
       env:
         COOLIFY_TOKEN: ${{ secrets.COOLIFY_TOKEN }}
         COOLIFY_APP_UUID: ${{ vars.COOLIFY_APP_UUID }}
