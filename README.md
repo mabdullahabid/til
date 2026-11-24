@@ -2,7 +2,7 @@
 
 My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.com/simonw/til).
 
-<!-- count starts -->32<!-- count ends --> TILs so far.
+<!-- count starts -->47<!-- count ends --> TILs so far.
 
 <!-- index starts -->
 ## azure
@@ -17,8 +17,8 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 ## heroku
 
 * [Upgrade Review App Environment Variable](https://github.com/mabdullahabid/til/blob/main/heroku/update-review-app-ui-root-path.md) - 2024-05-09
-* [Upgrade Review App Addons based on Production Addons](https://github.com/mabdullahabid/til/blob/main/heroku/upgrade-review-app-addons.md) - 2024-05-09
 * [Upgrade Review App Dynos based on Production Dynos](https://github.com/mabdullahabid/til/blob/main/heroku/upgrade-review-app-dynos.md) - 2024-05-09
+* [Upgrade Review App Addons based on Production Addons](https://github.com/mabdullahabid/til/blob/main/heroku/upgrade-review-app-addons.md) - 2024-05-09
 
 ## zsh
 
@@ -28,17 +28,54 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 
 * [Webmail Internal Server Error after migration](https://github.com/mabdullahabid/til/blob/main/hestiacp/webmail-internal-server-error-after-migration.md) - 2024-06-01
 
-## rancher
+## content-moderation
 
-* [Rancher Namespace Project Binding](https://github.com/mabdullahabid/til/blob/main/rancher/rancher-namespace-project-binding.md) - 2026-04-11
+* [Content Safety Transcript Dependency](https://github.com/mabdullahabid/til/blob/main/content-moderation/content-safety-transcript-dependency.md) - 2026-04-11
+
+## chatbots
+
+* [Chatbot Container Validation Prompt Strategy](https://github.com/mabdullahabid/til/blob/main/chatbots/chatbot-container-validation-prompt-strategy.md) - 2026-04-11
+
+## zoom
+
+* [Zoom Transcript Polling Fallback](https://github.com/mabdullahabid/til/blob/main/zoom/zoom-transcript-polling-fallback.md) - 2026-04-11
+
+## ai
+
+* [AI Model Sizing Rule of Thumb](https://github.com/mabdullahabid/til/blob/main/ai/ai-model-sizing-rule-of-thumb.md) - 2026-04-11
+* [Normalize Responses API Content Before Validation](https://github.com/mabdullahabid/til/blob/main/ai/normalize-responses-api-content-before-validation.md) - 2026-09-29
+* [Crawl4AI Pruned Text Needs Quality Gates](https://github.com/mabdullahabid/til/blob/main/ai/crawl4ai-pruned-text-needs-quality-gates.md) - 2026-10-27
+
+## shopify
+
+* [Shopify Webhook Date Trap](https://github.com/mabdullahabid/til/blob/main/shopify/shopify-webhook-date-trap.md) - 2026-04-11
+* [Shopify Custom Line Items Do Not Inherit Variant Tax Settings](https://github.com/mabdullahabid/til/blob/main/shopify/custom-line-items-do-not-inherit-variant-tax-settings.md) - 2026-10-13
+* [Shopify Order Creation Supports One Discount Code](https://github.com/mabdullahabid/til/blob/main/shopify/order-create-supports-one-discount-code.md) - 2026-10-13
 
 ## debugging
 
 * [PHP Backend Product Count Debug](https://github.com/mabdullahabid/til/blob/main/debugging/php-backend-product-count-debug.md) - 2026-04-11
 
-## shopify
+## google-maps
 
-* [Shopify Webhook Date Trap](https://github.com/mabdullahabid/til/blob/main/shopify/shopify-webhook-date-trap.md) - 2026-04-11
+* [Google Maps API Caching Opportunity](https://github.com/mabdullahabid/til/blob/main/google-maps/google-maps-api-caching-opportunity.md) - 2026-04-11
+* [Google Geocoding `postcode_localities` Lives Inside Each Result](https://github.com/mabdullahabid/til/blob/main/google-maps/google-geocoding-postcode-localities-live-inside-result.md) - 2026-10-27
+
+## web-scraping
+
+* [RSS Feed URL Discovery Pattern](https://github.com/mabdullahabid/til/blob/main/web-scraping/rss-feed-url-discovery-pattern.md) - 2026-04-11
+
+## devops
+
+* [PR Review Apps Isolation](https://github.com/mabdullahabid/til/blob/main/devops/pr-review-apps-isolation.md) - 2026-04-11
+
+## rancher
+
+* [Rancher Namespace Project Binding](https://github.com/mabdullahabid/til/blob/main/rancher/rancher-namespace-project-binding.md) - 2026-04-11
+
+## salesforce
+
+* [Salesforce Matching Fallback Logic](https://github.com/mabdullahabid/til/blob/main/salesforce/salesforce-matching-fallback-logic.md) - 2026-04-11
 
 ## compliance
 
@@ -48,46 +85,19 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 
 * [Stripe Pricing Seeding for Preview Deployments](https://github.com/mabdullahabid/til/blob/main/stripe/stripe-pricing-seeding-preview.md) - 2026-04-11
 
-## chatbots
-
-* [Chatbot Container Validation Prompt Strategy](https://github.com/mabdullahabid/til/blob/main/chatbots/chatbot-container-validation-prompt-strategy.md) - 2026-04-11
-
-## web-scraping
-
-* [RSS Feed URL Discovery Pattern](https://github.com/mabdullahabid/til/blob/main/web-scraping/rss-feed-url-discovery-pattern.md) - 2026-04-11
-
-## ai
-
-* [AI Model Sizing Rule of Thumb](https://github.com/mabdullahabid/til/blob/main/ai/ai-model-sizing-rule-of-thumb.md) - 2026-04-11
-* [Normalize Responses API Content Before Validation](https://github.com/mabdullahabid/til/blob/main/ai/normalize-responses-api-content-before-validation.md) - 2026-09-29
-
-## salesforce
-
-* [Salesforce Matching Fallback Logic](https://github.com/mabdullahabid/til/blob/main/salesforce/salesforce-matching-fallback-logic.md) - 2026-04-11
-
-## zoom
-
-* [Zoom Transcript Polling Fallback](https://github.com/mabdullahabid/til/blob/main/zoom/zoom-transcript-polling-fallback.md) - 2026-04-11
-
-## devops
-
-* [PR Review Apps Isolation](https://github.com/mabdullahabid/til/blob/main/devops/pr-review-apps-isolation.md) - 2026-04-11
-
-## google-maps
-
-* [Google Maps API Caching Opportunity](https://github.com/mabdullahabid/til/blob/main/google-maps/google-maps-api-caching-opportunity.md) - 2026-04-11
-
-## content-moderation
-
-* [Content Safety Transcript Dependency](https://github.com/mabdullahabid/til/blob/main/content-moderation/content-safety-transcript-dependency.md) - 2026-04-11
-
 ## docker
 
 * [Removed Compose Services Require Dependency Cleanup](https://github.com/mabdullahabid/til/blob/main/docker/removed-compose-services-require-dependency-cleanup.md) - 2026-09-23
+* [Probe the New Container Over Loopback](https://github.com/mabdullahabid/til/blob/main/docker/probe-the-new-container-over-loopback.md) - 2026-10-15
+* [Run Database Migrations at Container Start, Not Image Build](https://github.com/mabdullahabid/til/blob/main/docker/run-database-migrations-at-container-start.md) - 2026-10-15
 
 ## django
 
 * [QuerySet.update() Bypasses Model and Wagtail Signals](https://github.com/mabdullahabid/til/blob/main/django/queryset-update-bypasses-model-and-wagtail-signals.md) - 2026-09-23
+* [A FileField Cannot Use an Auto Primary Key on First Save](https://github.com/mabdullahabid/til/blob/main/django/filefield-primary-key-is-unset-on-first-save.md) - 2026-10-13
+* [Repair Unapplied Conflicting Django Migration Leaves Safely](https://github.com/mabdullahabid/til/blob/main/django/repair-unapplied-conflicting-migration-leaves.md) - 2026-10-13
+* [Defer External Side Effects Until the Database Commits](https://github.com/mabdullahabid/til/blob/main/django/defer-external-side-effects-until-database-commit.md) - 2026-10-13
+* [Django `on_commit(..., robust=True)` Contains Best-Effort Callback Failures](https://github.com/mabdullahabid/til/blob/main/django/django-on-commit-robust-prevents-post-commit-request-errors.md) - 2026-10-27
 
 ## playwright
 
@@ -102,6 +112,7 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 
 * [Initialize PostHog Before Next.js Hydration](https://github.com/mabdullahabid/til/blob/main/nextjs/initialize-posthog-before-nextjs-hydration.md) - 2026-09-29
 * [Let Rate-Limit Clients Own the Cooldown](https://github.com/mabdullahabid/til/blob/main/nextjs/let-rate-limit-clients-own-the-cooldown.md) - 2026-10-04
+* [Force Dynamic Next.js Routes After Database-Less Builds](https://github.com/mabdullahabid/til/blob/main/nextjs/force-dynamic-nextjs-routes-after-db-less-builds.md) - 2026-10-15
 
 ## git
 
@@ -114,4 +125,11 @@ My Today I Learned (TIL) snippets. Heavily inspired by [simonw](https://github.c
 ## python
 
 * [dict.get Defaults Only Apply to Missing Keys](https://github.com/mabdullahabid/til/blob/main/python/dict-get-default-only-fires-on-missing-key.md) - 2026-10-04
+* [Circular Time Windows Need Sequence Order](https://github.com/mabdullahabid/til/blob/main/python/circular-time-window-use-first-last-not-min-max.md) - 2026-10-15
+* [Move CPU-Bound Fallbacks Off the Async Event Loop](https://github.com/mabdullahabid/til/blob/main/python/move-cpu-bound-fallbacks-off-the-async-event-loop.md) - 2026-10-27
+
+## testing
+
+* [Prove a Simulator Matches Production with Parity Tests](https://github.com/mabdullahabid/til/blob/main/testing/prove-a-simulator-matches-production-with-parity-tests.md) - 2026-10-15
+* [Skip Before Django TestCase Opens Its Atomic Block](https://github.com/mabdullahabid/til/blob/main/testing/skip-before-django-testcase-opens-its-atomic-block.md) - 2026-10-27
 <!-- index ends -->
